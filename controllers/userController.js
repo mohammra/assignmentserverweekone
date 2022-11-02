@@ -27,8 +27,11 @@ const getUser = (req, res) => {
 const modifyUser = (req, res) => {};
 const createUser = (req, res) => {
   const message = `username: ${req.body.name}, email: ${req.body.name}`;
+  res.send("Adding new user" + userInfo);
+
   // res.sen("creating user" + userInfo);
 };
+
 const deleteUser = (req, res) => {};
 
 module.exports = {

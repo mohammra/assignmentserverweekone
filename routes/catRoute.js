@@ -8,6 +8,7 @@ router.get("/", catController.getCats);
 router.post("/", (req, res) => {
   console.log(req);
   res.send("From this endpoint you can add more cats.");
+  no;
 });
 router.put("/", (req, res) => {
   res.send("From this point you can add more cats");
