@@ -18,9 +18,6 @@ router.delete("/", (req, res) => {
 router.get("/", (req, res) => {
   res.send("From this endpoint you can get users.");
 });
-router.get("/:cat_id", (req, res) => {
-  console.log(req.params);
-  res.send("From this endpoint you can get cat id users." + req.params.cat_id);
-});
+router.get("/:cat_id", catController.getCat);
 
 module.exports = router;
