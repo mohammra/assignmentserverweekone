@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <meta charset="utf8" />
+    <title>Sell</title>
+    <link href="./css/sell.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="buy.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+
+  <body>
+    <section id="header" class="section-p1">
+      <a href="#"
+        ><img src="img/finder-logo-white.png" class="logo" alt=""
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html" class="">Home</a></li>
+          <li><a href="about.html" class="">About</a></li>
+          <li><a href="contact.html" class="">Contact</a></li>
+          <li><a href="signin.html" class="">Sign In</a></li>
+          <li><a href="signup.html" class="">Sign Up Free</a></li>
+          <li id="log-out">
+            <p id="user-info"></p>
+            <button href="index.html" class="">Sign out</button>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-bars"></i>
+      </div>
+      <!-- Mobile Menu -->
+    </section>
+    <div class="container">
+      <!-- <h1>List of Products</h1> -->
+
+      <!-- <ul>
+         js creates list here 
+        <li><a href="buy.html">Frontpage</a></li>
+                <li><a href="signin.html">Add user</a></li>
+                <li><a href="add-cat.html">Add cat</a></li>
+        
+      </ul> -->
+
+      <h3 id="sell-header">Post Your Product</h3>
+
+      <form
+        class="light-border"
+        enctype="multipart/form-data"
+        id="add-product-form"
+      >
+        <input
+          class="light-border"
+          type="text"
+          name="name"
+          placeholder="Name"
+        />
+        <input
+          class="light-border"
+          type="text"
+          name="details"
+          placeholder="Details"
+        />
+        <input
+          class="light-border"
+          type="file"
+          name="cat"
+          accept="image/*"
+          placeholder="Choose file"
+        />
+        <input
+          class="light-border"
+          type="text"
+          name="posting_date"
+          placeholder="Date"
+        />
+
+        <button class="light-border" type="submit">Post</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="./js/serialize.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.min.js"></script>
+    <script src="./js/mapbox.js"></script>
+    <script src="./js/sell.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <title>Sign up form</title>
+  </head>
+  <body>
+    <section id="header" class="section-p1">
+      <a href="#"
+        ><img src="img/finder-logo-white.png" class="logo" alt=""
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a class="" href="index.html" class="">Home</a></li>
+          <li><a href="about.html" class="">About</a></li>
+          <li><a href="contact.html" class="">Contact</a></li>
+          <li><a href="signin.html" class="">Sign In</a></li>
+          <li><a href="signup.html" class="active">Sign Up Free</a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-bars"></i>
+      </div>
+      <!-- Mobile Menu -->
+    </section>
+    <section id="signUp" class="signup-1">
+      <div id="login-wrapper" class="signup-form1">
+        <form action="signin.html" id="add-user-form">
+          <h2 class="form-1">Register</h2>
+          <!-- full name -->
+
+          <!-- first name -->
+          <!-- 
+          <label for="fname" class="text-sm">Name</label><br />
+          <input type="text" name="" id="fname" class="form-name" /> -->
+
+          <label for="name" class="text-sm1">Name</label><br />
+          <input
+            type="text"
+            name="name"
+            pattern=".{3,}"
+            class="email-pass1"
+            placeholder="name"
+            required
+          />
+
+          <!-- last name -->
+          <!-- <div id="lastName" class="form-fname">
+              <label for="lname" class="text-sm">Last Name</label><br />
+              <input type="text" name="" id="lname" class="form-name" />
+            </div> -->
+
+          <!-- email -->
+          <label for="email" class="text-sm1">Email</label><br />
+          <input
+            type="emial"
+            name="email"
+            class="email-pass1"
+            placeholder="Email"
+            required
+          />
+          <!-- password -->
+          <label for="password" class="text-sm1">Password</label><br />
+          <input
+            type="password"
+            name="passwd"
+            id="password"
+            class="email-pass1"
+            placeholder="Password"
+          />
+          <!-- confirm password -->
+          <label for="address" class="text-sm1">Address</label><br />
+          <input
+            type="text"
+            name="address"
+            id="email"
+            class="email-pass1"
+            placeholder="Address"
+          />
+          <!-- radio buttons for gender -->
+          <!-- <div id="gender" class="gender-selector">
+            <p class="mt-2">Gender</p>
+            <input
+              type="radio"
+              name="gender"
+              id="male"
+              class="gender"
+              checked
+            /><label for="male">Male</label>
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              class="gender-1"
+            /><label for="female">Female</label>
+            <input
+              type="radio"
+              name="gender"
+              id="other"
+              class="gender-1"
+            /><label for="other">Other</label>
+          </div> -->
+          <!-- Sign up / submit button -->
+          <!-- <input type="submit" name="" id="signUp1" class="signup-button1" /> -->
+          <button class="signup-button1" type="submit">submit</button>
+          <br />
+          <p class="signup-text">
+            Already have a account?
+            <a href="signin.html" class="signin-link">Login</a>
+          </p>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="./js/serialize.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.min.js"></script>
+    <script src="./js/mapbox.js"></script>
+    <script src="./js/sell.js"></script>
+  </body>
+</html>

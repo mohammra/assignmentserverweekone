@@ -1,0 +1,89 @@
+.signup-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.signup-form1 {
+  display: block;
+  background-color: rgb(226 232 240);
+  border-radius: 0.75rem;
+  color: rgb(139, 62, 146);
+}
+.form-1 {
+  color: rgb(29 78 216);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-fullname {
+  display: flex;
+  flex-direction: row;
+}
+.form-fname {
+  width: 50%;
+  margin-right: 0.25rem;
+}
+.text-sm1 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.form-name {
+  height: 2rem;
+  width: 80%;
+  border-radius: 0.375rem;
+  padding-left: 0.5rem;
+  background-color: transparent;
+  outline-color: #2563eb;
+}
+.email-pass1 {
+  height: 2rem;
+  width: 90%;
+  border-radius: 0.375rem;
+  border-color: rgb(203 213 225);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-left: 0.5rem;
+  background-color: transparent;
+  outline-color: #2563eb;
+  padding-bottom: 10px;
+}
+.gender-selector {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.gender {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.signup-button1 {
+  padding-top: 10px 18px;
+  background-color: rgb(29 78 216);
+  cursor: pointer;
+  color: rgb(255 255 255);
+  border-radius: 0.375rem;
+  background-color: rgb(37 99 235);
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 2px;
+  font-size: 0.875rem;
+}
+.signup-text {
+  font-size: 0.95rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.signin-link {
+  color: rgb(37 99 235);
+  font-size: 0.975rem;
+  line-height: 1.25rem;
+}
